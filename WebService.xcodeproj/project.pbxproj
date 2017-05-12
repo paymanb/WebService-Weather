@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67608CE31EC198FF00D4CA50 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67608CE21EC198FF00D4CA50 /* SwiftyJSON.swift */; };
 		67E683611EC02E4A00589B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E683601EC02E4A00589B57 /* AppDelegate.swift */; };
 		67E683631EC02E4A00589B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E683621EC02E4A00589B57 /* ViewController.swift */; };
 		67E683661EC02E4A00589B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E683641EC02E4A00589B57 /* Main.storyboard */; };
 		67E683681EC02E4A00589B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E683671EC02E4A00589B57 /* Assets.xcassets */; };
 		67E6836B1EC02E4A00589B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E683691EC02E4A00589B57 /* LaunchScreen.storyboard */; };
+		67E683801EC02E7700589B57 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E683741EC02E7700589B57 /* AFHTTPSessionManager.m */; };
+		67E683811EC02E7700589B57 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E683771EC02E7700589B57 /* AFNetworkReachabilityManager.m */; };
+		67E683821EC02E7700589B57 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E683791EC02E7700589B57 /* AFSecurityPolicy.m */; };
+		67E683831EC02E7700589B57 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6837B1EC02E7700589B57 /* AFURLRequestSerialization.m */; };
+		67E683841EC02E7700589B57 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6837D1EC02E7700589B57 /* AFURLResponseSerialization.m */; };
+		67E683851EC02E7700589B57 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6837F1EC02E7700589B57 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67608CE21EC198FF00D4CA50 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		67E6835D1EC02E4A00589B57 /* WebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E683601EC02E4A00589B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E683621EC02E4A00589B57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,20 @@
 		67E683671EC02E4A00589B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E6836A1EC02E4A00589B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E6836C1EC02E4A00589B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E683731EC02E7700589B57 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		67E683741EC02E7700589B57 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		67E683751EC02E7700589B57 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		67E683761EC02E7700589B57 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		67E683771EC02E7700589B57 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		67E683781EC02E7700589B57 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		67E683791EC02E7700589B57 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		67E6837A1EC02E7700589B57 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		67E6837B1EC02E7700589B57 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		67E6837C1EC02E7700589B57 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		67E6837D1EC02E7700589B57 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		67E6837E1EC02E7700589B57 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		67E6837F1EC02E7700589B57 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		67E683861EC02ED300589B57 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,8 @@
 		67E683541EC02E4A00589B57 = {
 			isa = PBXGroup;
 			children = (
+				67E683861EC02ED300589B57 /* bridge.h */,
+				67E683721EC02E7700589B57 /* AFNetworking */,
 				67E6835F1EC02E4A00589B57 /* WebService */,
 				67E6835E1EC02E4A00589B57 /* Products */,
 			);
@@ -60,8 +84,29 @@
 				67E683671EC02E4A00589B57 /* Assets.xcassets */,
 				67E683691EC02E4A00589B57 /* LaunchScreen.storyboard */,
 				67E6836C1EC02E4A00589B57 /* Info.plist */,
+				67608CE21EC198FF00D4CA50 /* SwiftyJSON.swift */,
 			);
 			path = WebService;
+			sourceTree = "<group>";
+		};
+		67E683721EC02E7700589B57 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				67E683731EC02E7700589B57 /* AFHTTPSessionManager.h */,
+				67E683741EC02E7700589B57 /* AFHTTPSessionManager.m */,
+				67E683751EC02E7700589B57 /* AFNetworking.h */,
+				67E683761EC02E7700589B57 /* AFNetworkReachabilityManager.h */,
+				67E683771EC02E7700589B57 /* AFNetworkReachabilityManager.m */,
+				67E683781EC02E7700589B57 /* AFSecurityPolicy.h */,
+				67E683791EC02E7700589B57 /* AFSecurityPolicy.m */,
+				67E6837A1EC02E7700589B57 /* AFURLRequestSerialization.h */,
+				67E6837B1EC02E7700589B57 /* AFURLRequestSerialization.m */,
+				67E6837C1EC02E7700589B57 /* AFURLResponseSerialization.h */,
+				67E6837D1EC02E7700589B57 /* AFURLResponseSerialization.m */,
+				67E6837E1EC02E7700589B57 /* AFURLSessionManager.h */,
+				67E6837F1EC02E7700589B57 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E683801EC02E7700589B57 /* AFHTTPSessionManager.m in Sources */,
+				67E683851EC02E7700589B57 /* AFURLSessionManager.m in Sources */,
+				67E683821EC02E7700589B57 /* AFSecurityPolicy.m in Sources */,
 				67E683631EC02E4A00589B57 /* ViewController.swift in Sources */,
+				67E683831EC02E7700589B57 /* AFURLRequestSerialization.m in Sources */,
+				67E683811EC02E7700589B57 /* AFNetworkReachabilityManager.m in Sources */,
+				67608CE31EC198FF00D4CA50 /* SwiftyJSON.swift in Sources */,
+				67E683841EC02E7700589B57 /* AFURLResponseSerialization.m in Sources */,
 				67E683611EC02E4A00589B57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,11 +315,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Y3UY2JGSK8;
 				INFOPLIST_FILE = WebService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paymanbayat.WebService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,11 +330,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Y3UY2JGSK8;
 				INFOPLIST_FILE = WebService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paymanbayat.WebService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +360,7 @@
 				67E683711EC02E4A00589B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
